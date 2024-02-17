@@ -1,0 +1,18 @@
+# Ignore everything in the package directory except README
+packages/*
+!packages/README.md
+
+# Ignore everything in the out directory except README
+out/*
+!out/README.md
+
+# Ignore everything in the drivers directory except README
+drivers/*
+!drivers/README.md
+
+# Ignore everything in the addons/apps directory except README
+addons/apps/*
+!addons/apps/README.md
+
+# Ignore in the winpe-workdir directory
+winpe-workdir
